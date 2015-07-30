@@ -31,6 +31,6 @@ var Callback =
     }
 };
 
-window.onload = function(){
+$(document).ready(function(){
     Callback.init();
-};
+});
