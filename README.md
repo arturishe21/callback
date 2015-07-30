@@ -13,3 +13,18 @@ composer update
 ```php
   'Vis\Callback\CallbackServiceProvider',
 ```
+
+Публикуем js файлы
+```json
+   php artisan asset:publish vis/callback
+```
+
+Публикуем config
+```json
+   php artisan config:publish vis/callback
+```
+
+Публикуем views
+```json
+   php artisan view:publish vis/callback
+```
